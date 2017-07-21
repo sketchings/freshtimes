@@ -5,7 +5,6 @@ $dotenv->load(__DIR__ . '/../.env');
 
 $paypal = new Freshtimes\Paypal(getenv("USERNAME"), getenv("PASSWORD"), getenv("SIGNATURE"), getenv("ENVIRONMENT"));
 $response = $paypal->call('GetBalance');
-var_dump($response);
 
 echo '<h1>Coming Soon... Fresh Times!</h1>';
 echo '<p>Current Balance: $' . $response['L_AMT0'] . '</p>';
