@@ -1,0 +1,26 @@
+{
+    "name": "freshtimes/freshtimes",
+    "description": "Fresh Times Website",
+    "keywords": ["paypal"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://github.com/sketchings/freshtimes",
+    "authors": [
+        {
+            "name": "Alena Holligan",
+            "homepage": "https://sketchings.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "symfony/dotenv": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Freshtimes\\": "src/"
+        }
+    }
+}
