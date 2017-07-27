@@ -14,6 +14,7 @@ $response = $paypal->call('GetBalance');
 
 </head>
 <body>
+    <h1>Current Status of Savings Goal</h1>
 
 <div id="thermometer">
 
@@ -27,6 +28,8 @@ $response = $paypal->call('GetBalance');
     </div>
 
 </div>
+    
+    <h3><a href="https://paypal.me/freshtimes">Add your contribution</a></h3>
 
 <script src="js/script.js"></script>
 </body>
