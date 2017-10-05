@@ -29,7 +29,8 @@ $response = $paypal->call('GetBalance');
 
 </div>
     
-    <h3><a href="https://paypal.me/freshtimes">Add your contribution</a></h3>
+    <h3>Add your contribution</h3>
+    <p>To send money WITHOUT FEES, log in to your PayPal account and click Send & Request at the top of the page. Select "Send to friends and family in the US". <strong>DO NOT CHECK THE BOX</strong> that says "Paying for goods or a service?"</p>
 
 <script src="js/script.js"></script>
 </body>
